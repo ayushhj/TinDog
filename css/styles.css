@@ -1,0 +1,170 @@
+body{
+    font-family: "Montserrat";
+
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% !important;
+}
+
+h1{
+     font-family: "Montserrat";
+     font-size: 3.5rem !important;
+     line-height: 1.5;
+
+}
+
+/* h2{
+    font-family: "Montserrat";
+     font-weight: bold;
+    font-size: 3rem !important;
+    line-height: 1.5rem;
+}  */
+
+/* Navigation bar */
+
+.navbar{
+    padding:0 0 4.5rem !important;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem !important;
+    font-weight: bold;
+
+}
+
+.nav-item{
+    padding: 0px 18px;
+
+}
+/* .nav-link{
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+
+} */
+
+/* Download buttons */
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* feature section */
+
+#features{
+padding: 7% 15%;
+
+}
+
+.feature-box{
+    text-align: center;
+    padding: 10%;
+}
+
+.ft-icon{
+    color: #ef8172;
+}
+.ft-icon:hover{
+    color: #ff4c68;
+
+}
+
+.ft-h3{
+    font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  margin: 5% 0 0
+}
+.ft-p{
+    padding: 1% 15% 15%;
+    color: gray;
+}
+
+/* Testimonial section */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+     font-weight: bold;
+    font-size: 3rem !important;
+    line-height: 3.5rem;
+
+}
+.carousel-item{
+    padding: 7% 15% ;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing{
+    padding: 6.5% 12%;
+  }
+  
+  .pricing-plan{
+    padding: 4% 2%;
+  }
+  
+  .plans{
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+  
+  .pricing-head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+  
+  .card-alignment{
+    height: 25rem;
+  }
+  
+  .last-p-align{
+    padding-bottom: 2.5rem;
+  }
+  
+  .dog-bread{
+    font-size: 1.5rem;
+    font-weight:bold;
+  }
+  
+  .card-header{
+    padding-bottom: 0;
+  }
+  .pricing-para{
+      text-align: center;
+      color: grey;
+  }
