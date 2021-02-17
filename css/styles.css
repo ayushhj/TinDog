@@ -8,7 +8,7 @@ body{
     color: #fff;
 }
 .container-fluid{
-    padding: 3% 15% !important;
+    padding: 3% 15% 7% !important;
 }
 
 h1{
@@ -56,14 +56,18 @@ h1{
 /* Title image */
 
 .title-img{
-    width: 60%;
+    width: 55%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* feature section */
 
 #features{
 padding: 7% 15%;
+background-color: #fff;
+position: relative;
 
 }
 
@@ -81,7 +85,7 @@ padding: 7% 15%;
 }
 
 .ft-h3{
-    font-size: 1.5rem;
+  font-size: 1.5rem;
   font-family: 'Montserrat';
   font-weight: bolder;
   margin: 5% 0 0
@@ -168,3 +172,40 @@ padding: 7% 15%;
       text-align: center;
       color: grey;
   }
+
+  @media (max-width: 1028px){
+      #title{
+          text-align: center;
+      }
+      .title-img{
+          position: static;
+          transform: rotate(0);
+      }
+  }
+
+  /* Call to Action  */
+
+  #cta{
+      background-color: #ff4c68;
+      color: #fff;
+      text-align: center;
+      padding: 7% 15%; 
+  }
+
+  .cta-h3{
+      font-family: montserrat;
+      font-size: 3.5rem;
+      /* line-height: 1.5rem; */
+  }
+
+  /* Footer section  */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+} 
+
+.social-icon{
+    margin: 20px 10px;
+    color: black;
+
+}
